@@ -1,0 +1,277 @@
+<! --Decleration: HTML5 and language set to English-->
+<!DOCTYPE html>
+<html lang="en">
+     <! -- layout and design//-->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible content = "IE=edge">
+        <meta name="view port"
+        content="Width=device-Width",initial-scale=1.0><title>Sunshine Kindergarten</title>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+        >
+        <link rel="stylesheet" href="">
+        <title>Sunshine Kindergarten</title>
+        <div class="image">
+            <img src="https://static.vecteezy.com/system/resources/previews/022/095/753/non_2x/cartoon-sun-icon-with-facial-expression-free-png.png" alt="Logo"style="width:50px;height:50px;>
+        </div>
+    </head>
+    <body>
+        <header class="header">
+         <a href="#" class="logo"> <class="fas fa-school"></i> Sunshine Kindergarten</a>
+         <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#education">Education</a>
+            <a href="#teacher">Teachers</a>
+            <a href="#Sheduale">Shedule</a>
+            <a href="#gallery">Gallery Activities</a>
+            <a href="#Announcements">Announcements</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+        </header>
+        <main>
+             <!-- Home page-->
+
+        <section class="home" id="home">
+
+            <div class="content">
+                <h3>welcome to Sunshine <span>Kindergarten</span></h3>
+                <p>Learning, exploring, and growing togather!</p>
+                <p>A little learner today, a world changer tomorrow.</p>
+                <p>Small steps towards big dreams start today!</p>
+            </div>
+    
+        </section>
+    
+        <!-- education page-->
+    
+        <section class="education" id="education">
+    
+            <h1 class="heading">Classes</h1>
+    
+            <div class="box-container">
+    
+                <div class="box">
+                    <h3>English Language lessons</h3>
+                    <p>Reading,writing, and speaking!</p>
+                    <img src="https://t3.ftcdn.net/jpg/04/46/96/24/360_F_446962466_9uQWmjJaR8sofQuA1hMxhzPGcSNyGttX.jpg" alt="">
+                </div>
+    
+                <div class="box">
+                    <h3>Sport</h3>
+                    <p>Free Play</p>
+                    <img src="https://www.shutterstock.com/image-photo/happy-children-team-different-balls-260nw-450428416.jpg" alt="">
+                </div>
+    
+                <div class="box">
+                    <h3>Math</h3>
+                    <p>Numbers, counting and more</p>
+                    <img src="https://st4.depositphotos.com/3243153/20604/i/450/depositphotos_206044308-stock-photo-child-doing-homework-home-little.jpg" alt="">
+                </div>
+    
+                <div class="box">
+                    <h3>ِArts</h3>
+                    <p>Drawing, painting and handicrafts</p>
+                    <img src="https://media.istockphoto.com/id/925853760/photo/tailor-art-workshops-for-children-a-girl-sewing-felt-decorations.jpg?s=612x612&w=0&k=20&c=0C1z9Q863Tc6YMTd5axqj1URRcFw113cteNqlSh1YQk=" alt="">
+                </div>
+            </div>
+    
+            <!-- Teachers page-->
+    
+        <section class="teacher" id="teacher">
+    
+            <h1 class="heading">Teachers</h1>
+    
+            <div class="box-container">
+    
+                <div class="box">
+                    <img src="https://www.cvexpres.com/teaching-jobs-schools/wp-content/uploads/2022/09/profile-as-a-teacher-1.jpg" alt="">
+                    <h3>Alex K.James</h3>
+                    <p>English language teacher</p>
+                </div>
+                <div class="box">
+                    <img src="https://fh.ung.ac.id/wp-content/uploads/2019/04/t20-5.jpg" alt="">
+                    <h3>Jhone R.Tomas</h3>
+                    <p>Math teacher</p>
+                </div>
+                <div class="box">
+                    <img src="https://www.fairviewer.org/wp-content/uploads/2017/12/1Q02011.jpg" alt="">
+                    <h3>Kate E.Tim</h3>
+                    <p>Sport teacher</p>
+                </div>
+                <div class="box">
+                    <img src="https://t3.ftcdn.net/jpg/04/23/59/74/360_F_423597477_AKCjGMtevfCi9XJG0M8jter97kG466y7.jpg"alt="">
+                    <h3>Tom N.Steve</h3>
+                    <p>Arts teacher</p>
+                </div>
+        </section>
+
+        <!--Weekly Shedule page-->
+        <section class="Sheduale" id="Sheduale">
+            <div class="content">
+            <h1 class="heading">weekly<span>sheduale</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="https://images.template.net/104058/kids-school-timetable-chart-template-lupxh.jpeg"alt="">
+            </div>
+            </div>
+        </section>
+    
+
+        <!-- Announcements-->
+        <section class="Announcements" id="Announcements">
+    
+            <h1 class="heading">Announcements</h1>
+        
+             <div class="box-container">
+        
+                 <div class="box">
+                    <h3>Cancellation of Sport classes</h3>
+                    <p>Next week's Sport classes are all cancelled due to an issue in the sport hall. However, Mrs. Kate will read the "Little three pigs" story.</p>
+                </div>
+        
+                <div class="box">
+                    <h3>Ice cream Day!</h3>
+                    <p>This Monday, each child will get an icecream after lunch.</p>
+                </div>
+        
+        <!-- gallery activities page -->
+    
+        <section class="gallery" id="gallery">
+    
+            <h1 class="heading">Activities</h1>
+    
+            <div class="gallery-container">
+                <section class="Activities-gallery">
+                <article class="Activities">
+                    <figure>
+                      <img src="https://media.istockphoto.com/id/505936825/photo/student-with-messy-hands-in-classroom.jpg?s=612x612&w=0&k=20&c=oUlS4gATJUK0bdHqbHMIsvwZMXiH_eZ4DRwd_H7SWck=" alt="placeholder">
+                      <figcaption>
+                        <h2>Painting</h2>
+                    </figcaption>
+                </figure>
+                </article>
+               </section>
+               <section class="Activities-gallery">
+                <article class="Activities">
+                    <figure>
+                        <img src="https://www.cadence-education.com/wp-content/uploads/2022/12/Screen-Shot-2022-12-21-at-1.31.08-PM-1030x698.png" alt="placeholder">
+                      <figcaption>
+                        <h2>Learning phonics</h2>
+                    </figcaption>
+                </figure>
+                </article>
+               </section>
+               <section class="Activities-gallery">
+                <article class="Activities">
+                    <figure>
+                        <img src="https://st.depositphotos.com/1000137/2646/i/450/depositphotos_26460023-stock-photo-group-of-cute-little-prescool.jpg" alt="placeholder">
+                      <figcaption>
+                        <h2>Drawing</h2>
+                    </figcaption>
+                </figure>
+                </article>
+               </section>
+               <section class="Activities-gallery">
+                <article class="Activities">
+                    <figure>
+                        <img src="https://media.istockphoto.com/id/987982694/photo/happy-girl-during-corrective-gymnastics.jpg?s=612x612&w=0&k=20&c=pxEoSv3omiagRpWf3XHNIJ03RF_zRLkpEej5JOmbbH0=" alt="placeholder">
+                        <h2>Sport 1</h2>
+                    </figcaption>
+                </figure>
+                </article>
+               </section>
+               <section class="Activities-gallery">
+                <article class="Activities">
+                    <figure>
+                        <img src="https://t3.ftcdn.net/jpg/02/10/18/72/360_F_210187231_QB0KzbCwIWGu1KGJWWpXeJzvuDRUuAmB.jpg" alt="placeholder">
+                        <h2>Sport 2</h2>
+                    </figcaption>
+                </figure>
+                </article>
+               </section>
+               <section class="Activities-gallery">
+                <article class="Activities">
+                    <figure>
+                        <img src="https://img.freepik.com/premium-photo/joyful-kids-are-playing-kindergarten-photography-colorful-minimal-kindergarten-background_950002-44260.jpg"alt="placeholder">
+                        <h2>Free play</h2>
+                    </figcaption>
+                </figure>
+                </article>
+               </section>
+            </div>
+        </section>
+        <!-- contact-->
+    
+        <section class="contact" id="contact">
+    
+            <h1 class="heading"> <span>contact</span> us</h1>
+    
+            <div class="contact">
+    
+                <div class="contact">
+                    <i class="fas fa-clock"></i>
+                    <h3>Opening hours :</h3>
+                    <p>Sunday - Thursday: 08:00 am to 12:30 pm</p>
+                </div>
+    
+                <div class="icons">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>SunshineKindergarten@example.com</p>
+                </div>
+    
+                <div class="icons">
+                    <i class="fas fa-phone"></i>
+                    <h3>phone number</h3>
+                    <p>+000 0000 0000</p>
+                </div>
+        </section>
+        </main>
+        <footer>
+            <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> <i class="fas fa-school"></i> Kindergarten </h3>
+                <p>Fun and educational journy awaits your little ones!</p> 
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fas fa-caret-right"></i> enroll now</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> parent portal</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> school calendar</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> lunch menu</a>
+            </div>
+
+            <div class="box">
+                <h3>category</h3>
+                <a href="#"> <i class="fas fa-caret-right"></i> about us</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> academics</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> admissions</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> news & events</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> contact us</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-caret-right"></i> privacy policy</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> terms of use</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> Location</a>
+                <a href="#"> <i class="fas fa-caret-right"></i> FAQs</a>
+            </div>
+
+        </div>
+
+        <div class="credit"> &copy; copyright @ 2024  <span>Sunshine Kindergarten</span></div>
+    </section>
+        </footer>
+    </body>
+</html>
