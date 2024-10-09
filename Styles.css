@@ -1,0 +1,260 @@
+/*
+ “Sunshine Kindergarten” wants to create a fun and informative webpage for
+ their classroom. The page should engage both parents and young children,
+ providing important information and showcasing student activities.
+
+  1.Create a colorful, child-friendly design that’s also readable for adults:
+       Line [16], [188], [205].
+  2.Ensure the layout is responsive for both mobile and desktop views:
+       Line [20] to Line [214] for Desktop, Line [217] to Line [239] for Mobile, Line [241] to Lin [260] for Tablet.
+  3.Use Flexbox or CSS Grid for layout:
+       Line [50], [135]
+  4.Implement a color scheme suitable for a kindergarten environment:
+       Line [25], [42], [64], [67], [70], [73], [94], [108], Line [194] to Line [200]
+  5.Colorful hover effects on navigation items:
+       Line [63] to Line [73]
+*/
+/*Assignment1 Part2 (CSS file) Done by Qunoot Sayed Mahdi Khalil Ali Abdulla (202209102)*/
+/*Responsive for Desktop*/
+/*Starts of Body Styling*/
+body {
+    font-family: 'Arial', Comic Sans, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+/*End of Body Styling*/
+/*Start of Header Styling*/
+header {
+    padding: 0;
+    text-align: center;
+}
+/*End of Header Styling*/
+/*Start of h1 Styling*/
+h1 {
+    color: #2c3e50; 
+}
+/*End of h1 Styling*/
+/*Start of Navigation Styling*/
+nav {
+    background-color: #ffef63;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: auto; 
+    /*Add Shadow for Effect*/
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /*Use Flexbox for Layout*/
+    display: flex; 
+    justify-content: center; 
+    padding: 10px 0;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+    transition: color 0.1s ease;
+    display: block;
+}
+/*Start of Hover Styling*/
+.link-announcements:hover {
+    color: #f85996; 
+}
+.link-schedule:hover {
+    color: #14c71a; 
+}
+.link-teachers:hover {
+    color: #2196f3;
+}
+.link-gallery:hover {
+    color: #c366d0; 
+}
+/*End of Hover Styling*/
+/*End of Navigation Styling*/
+/*Start of Main Styling*/
+main {
+    padding-bottom: 20px;
+}
+/*End of Main Styling*/
+/*Start of Section Styling*/
+section {
+    background-color: #ffffff;
+    border: 0;
+    padding: 15px; 
+    /*To Make Sure That it is Not Visible that 'h1' of Teachers and Gallery are Actually in Different Sections*/
+    margin-bottom: 0px;
+    text-align: center;
+}
+/* Table Styles */
+/* Highlight Section */
+.highlight {
+    background-color: #fff8b4;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #8feeff;
+    color: black;
+}
+/*Start of Teachers Section Styling*/
+.teacher div {
+    align-items: center;
+    margin-bottom: 0;
+    padding: 20px 20px 20px 20px;
+}
+.teacher img {
+    /*Fixed Size for Teacher Images*/
+    width: 220px; 
+    height: 220px;
+    /*Circular Image*/
+    border-radius: 50%; 
+    margin-right: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+.teacher p {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+.teacher h3 {
+    padding-top: 25px;
+}
+/*End of Teachers Section Styling*/
+/* Gallery Section */
+.gallery {
+    display: flex;
+    /*Wrap Images to Next Line*/
+    flex-wrap: wrap;
+    /*Space Between Images */
+    gap: 10px; 
+}
+.gallery img {
+    width: calc(50% - 5px);
+    border-radius: 3px;
+    border: 8px solid #c1cdda;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+}
+/*End of Gallery Section Styling*/
+/*Start of Footer Styling*/
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.White {
+    color: white;
+}
+/*End of Footer Styling*/
+/*Start of Welcome Message Styling*/
+.welcome-message {
+    position: relative;
+    /*Prevent Overflow*/
+    overflow: hidden;  
+    padding: 120px;
+    text-align: center;
+}
+.welcome-message::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(https://t3.ftcdn.net/jpg/05/01/94/74/360_F_501947446_CCSzVrdrkZ6XBeDxLxPiPAVNTSIt2SuS.jpg); 
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px); 
+    z-index: 0;
+}
+.welcome-message h1,
+.welcome-message p {
+    position: relative;
+    z-index: 1;
+    color: rgb(43, 0, 0);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+/*End of Welcome Message Styling*/
+/*Start of Announcement Section Styling*/
+.Ann {
+    background: linear-gradient(270deg,
+        rgba(255, 188, 116, 0.5), 
+        rgba(255, 218, 185, 0.5),
+        rgba(255, 255, 224, 0.5),
+        rgba(255, 255, 255, 0.5), 
+        rgba(255, 255, 224, 0.5),
+        rgba(255, 218, 185, 0.5),
+        rgba(255, 188, 116, 0.5)
+    );
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+    margin: 40px;
+    padding: 100px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    border-radius: 8px;
+}
+.Ann h4 {
+    color: rgb(60, 25, 25);
+}
+
+.Ann p {
+    color: rgb(60, 25, 25);
+}
+/*End of Announcement Section Styling*/
+/*Responsive for Mobile*/
+@media (max-width: 600px) {
+    nav {
+        /* Stack navigation items vertically */
+        flex-direction: column; 
+        font-size: 16px; 
+        margin: 5px 0;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    h4 {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
+/*Responsive for Tablet*/
+@media (min-width: 601px) and (max-width: 900px) {
+    h1 {
+        font-size: 30px; 
+    }
+    h2 {
+        font-size: 24px; 
+    }
+    h3 {
+        font-size: 22px; 
+    }
+    h4 {
+        font-size: 20px; 
+    }
+    p {
+        font-size: 16px; 
+    }
+    nav {
+        font-size: 18px;
+    }
+}
